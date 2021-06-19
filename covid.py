@@ -11,5 +11,5 @@ noti = soup.find_all('span', class_="number")[4].next_element.next_element.text
 
 obitos = soup.find_all('span', class_="number")[6].next_element.next_element.text
 
-print(noti)
-print(obitos)
+print("CASOS NA INDIA: " + noti)
+print("OBITOS NA INDIA: " + obitos)
